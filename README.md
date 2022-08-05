@@ -14,6 +14,10 @@ The recommendation system is designed in 3 parts based on the business context:
 
 When a new customer without any previous purchase history visits the e-commerce website for the first time, he/she is recommended the most popular products sold on the company's website. Once, he/she makes a purchase, the recommendation system updates and recommends other products based on the purchase history and ratings provided by other users on the website. The latter part is done using collaborative filtering techniques.
 
+#### Data: 
+Amazon rating: https://jmcauley.ucsd.edu/data/amazon/
+Home depot data: https://www.kaggle.com/competitions/home-depot-product-search-relevance/data
+
 #### Summary: 
 
 This works best if a business is setting up its e-commerce website for the first time and does not have user-item purchase/rating history to start with initally. This recommendation system will help the users get a good recommendation to start with and once the buyers have a purchased history, the recommendation engine can use the model based collaborative filtering technique.
